@@ -1063,6 +1063,215 @@
   }
 }
 
+/* Vastor Capital — ecosystem products */
+.vc2-products {
+  position: relative;
+  padding-block: clamp(6rem, 10vw, 8.5rem);
+  border-block: 1px solid #d8dddf;
+  background:
+    radial-gradient(circle at 100% 0%, #c89b5224, transparent 29rem),
+    linear-gradient(145deg, #f2f5f5, #e9edef);
+}
+
+.vc2-products::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.45;
+  background-image: linear-gradient(
+    90deg,
+    transparent calc(25% - 1px),
+    #dce1e2 25%,
+    transparent calc(25% + 1px)
+  );
+  background-size: 25% 100%;
+  pointer-events: none;
+}
+
+.vc2-products .vc-shell {
+  position: relative;
+  z-index: 1;
+}
+
+.vc2-products-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.62fr);
+  align-items: end;
+  gap: clamp(3rem, 9vw, 8rem);
+}
+
+.vc2-products-heading h2 {
+  max-width: 50rem;
+  margin-top: 1.4rem;
+  color: var(--vc-navy);
+  font-size: clamp(2.75rem, 5vw, 4.8rem);
+  letter-spacing: -0.045em;
+  line-height: 0.99;
+}
+
+.vc2-products-heading h2 em {
+  display: block;
+  color: var(--vc-gold-on-light);
+}
+
+.vc2-products-heading > p {
+  color: #536473;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.vc2-products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: clamp(3.5rem, 7vw, 6rem);
+}
+
+.vc2-ecosystem-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #d4d9da;
+  background: #fff;
+  box-shadow: 0 1.5rem 4rem #10283c0e;
+}
+
+.vc2-product-brand {
+  min-height: 15.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  border-bottom: 1px solid #e1e3e2;
+}
+
+.vc2-job-brand {
+  background: radial-gradient(circle at 80% 10%, #d5b2712b, transparent 16rem), #f8f6f1;
+}
+
+.vc2-job-brand img {
+  width: min(100%, 29rem);
+  height: auto;
+  object-fit: contain;
+}
+
+.vc2-antecipa-brand {
+  gap: 1.1rem;
+  background: radial-gradient(circle at 20% 20%, #f5487133, transparent 14rem), #fff8fa;
+}
+
+.vc2-antecipa-brand img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.35rem;
+  object-fit: cover;
+}
+
+.vc2-antecipa-brand strong {
+  color: #ed3f68;
+  font-size: clamp(2.25rem, 4vw, 3.3rem);
+  font-weight: 780;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+
+.vc2-ecosystem-card-copy {
+  padding: clamp(1.7rem, 3.5vw, 2.8rem);
+}
+
+.vc2-ecosystem-card-copy > span {
+  color: #715832;
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+}
+
+.vc2-antecipa-card .vc2-ecosystem-card-copy > span {
+  color: #bc294c;
+}
+
+.vc2-ecosystem-card-copy h3 {
+  max-width: 29rem;
+  margin-top: 1.4rem;
+  color: var(--vc-navy);
+  font-size: clamp(1.8rem, 3vw, 2.35rem);
+  line-height: 1.08;
+}
+
+.vc2-ecosystem-card-copy > p {
+  max-width: 31rem;
+  margin-top: 1.15rem;
+  color: #586a78;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.vc2-ecosystem-card-copy > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid #e1e4e3;
+}
+
+.vc2-ecosystem-card-copy small {
+  padding: 0.5rem 0.7rem;
+  color: #495c6b;
+  border: 1px solid #d9dddc;
+  border-radius: 999px;
+  background: #f8f9f8;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .vc2-products-heading,
+  .vc2-products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vc2-products-heading {
+    gap: 2rem;
+  }
+
+  .vc2-products-heading > p {
+    max-width: 41rem;
+  }
+
+  .vc2-product-brand {
+    min-height: 13rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .vc2-products-heading h2 {
+    font-size: clamp(2.5rem, 12vw, 3.35rem);
+  }
+
+  .vc2-product-brand {
+    min-height: 10.5rem;
+    padding: 1.5rem;
+  }
+
+  .vc2-antecipa-brand {
+    gap: 0.75rem;
+  }
+
+  .vc2-antecipa-brand img {
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 1rem;
+  }
+
+  .vc2-antecipa-brand strong {
+    font-size: clamp(1.9rem, 10vw, 2.7rem);
+  }
+
+  .vc2-ecosystem-card-copy {
+    padding: 1.5rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .vc-page *,
   .vc-page *::before,

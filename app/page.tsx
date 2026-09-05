@@ -7,7 +7,7 @@ import { Icon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Proteção com liberdade para profissionais PJ",
   description:
-    "A Vastor Capital conecta profissionais PJ, empresas e soluções de proteção em uma experiência com liberdade de escolha e continuidade.",
+    "A Vastor Capital conecta profissionais PJ, empresas e soluções como JOB Advisor e antecipa.ai em uma experiência com liberdade de escolha e continuidade.",
   robots: { index: true, follow: true },
 };
 
@@ -84,7 +84,7 @@ export default function HomePage() {
             <Brand compact priority />
           </Link>
           <nav aria-label="Navegação principal">
-            <a href="#solucao">Solução</a>
+            <a href="#produtos">Produtos</a>
             <a href="#publicos">Para quem</a>
             <a href="#indice">Índice</a>
             <a href="#como-funciona">Como funciona</a>
@@ -237,12 +237,80 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="vc2-products" id="produtos">
+          <div className="vc-shell">
+            <div className="vc2-products-heading">
+              <div>
+                <span className="vc2-section-index">02 — PRODUTOS</span>
+                <h2>
+                  Soluções para avançar com mais <em>clareza e autonomia.</em>
+                </h2>
+              </div>
+              <p>
+                O ecossistema Vastor aproxima orientação profissional e acesso inteligente a capital
+                — duas dimensões que ajudam pessoas e empresas a seguir em frente.
+              </p>
+            </div>
+
+            <div className="vc2-products-grid">
+              <article className="vc2-ecosystem-card vc2-job-card">
+                <div className="vc2-product-brand vc2-job-brand">
+                  <Image
+                    src="/job-advisor-logo.png"
+                    alt="JOB Advisor"
+                    width={2072}
+                    height={759}
+                    sizes="(max-width: 700px) 80vw, 420px"
+                  />
+                </div>
+                <div className="vc2-ecosystem-card-copy">
+                  <span>INTELIGÊNCIA DE CARREIRA</span>
+                  <h3>Decisões profissionais com direção.</h3>
+                  <p>
+                    Orientação inteligente para transformar experiência, contexto e ambição em
+                    próximos passos mais claros.
+                  </p>
+                  <div>
+                    <small>Clareza de trajetória</small>
+                    <small>Desenvolvimento profissional</small>
+                  </div>
+                </div>
+              </article>
+
+              <article className="vc2-ecosystem-card vc2-antecipa-card">
+                <div className="vc2-product-brand vc2-antecipa-brand">
+                  <Image
+                    src="/antecipa-ai-logo.jpeg"
+                    alt="Símbolo oficial da antecipa.ai"
+                    width={200}
+                    height={200}
+                    sizes="76px"
+                  />
+                  <strong>antecipa.ai</strong>
+                </div>
+                <div className="vc2-ecosystem-card-copy">
+                  <span>ANTECIPAÇÃO DE RECEBÍVEIS</span>
+                  <h3>Fluxo de caixa no ritmo do negócio.</h3>
+                  <p>
+                    Liquidez para pequenas e médias empresas por meio da antecipação de recebíveis,
+                    com foco em agilidade e transparência.
+                  </p>
+                  <div>
+                    <small>Capital de giro</small>
+                    <small>Recebíveis antecipados</small>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
         <section className="vc2-audiences" id="publicos">
           <div className="vc-shell">
             <div className="vc2-section-heading">
               <div>
                 <span className="vc2-section-index vc2-section-index-light">
-                  02 — TRÊS PERSPECTIVAS
+                  03 — TRÊS PERSPECTIVAS
                 </span>
                 <h2>Uma plataforma. Três formas de cuidar da mesma jornada.</h2>
               </div>
@@ -279,7 +347,7 @@ export default function HomePage() {
         <section className="vc2-index" id="indice">
           <div className="vc-shell vc2-index-grid">
             <div className="vc2-index-copy">
-              <span className="vc2-section-index">03 — ÍNDICE DE PROTEÇÃO</span>
+              <span className="vc2-section-index">04 — ÍNDICE DE PROTEÇÃO</span>
               <h2>
                 Um retrato simples para decisões mais <em>conscientes.</em>
               </h2>
@@ -346,7 +414,7 @@ export default function HomePage() {
             <div className="vc2-section-heading vc2-section-heading-process">
               <div>
                 <span className="vc2-section-index vc2-section-index-light">
-                  04 — COMO FUNCIONA
+                  05 — COMO FUNCIONA
                 </span>
                 <h2>Apoio coordenado. Escolha individual.</h2>
               </div>
@@ -402,6 +470,7 @@ export default function HomePage() {
             <div>
               <span>EXPERIÊNCIA</span>
               <a href="#solucao">A solução</a>
+              <a href="#produtos">Produtos</a>
               <a href="#publicos">Para quem</a>
               <a href="#indice">Índice de Proteção</a>
             </div>
