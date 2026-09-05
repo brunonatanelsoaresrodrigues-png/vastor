@@ -7,7 +7,7 @@ import { Icon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Proteção com liberdade para profissionais PJ",
   description:
-    "A Vastor Capital conecta profissionais PJ, empresas e soluções como JOB Advisor e antecipa.ai em uma experiência com liberdade de escolha e continuidade.",
+    "A Vastor Capital conecta profissionais PJ, empresas e soluções como JOB Advisor e Antecipar.ai em uma experiência com liberdade de escolha e continuidade.",
   robots: { index: true, follow: true },
 };
 
@@ -277,27 +277,26 @@ export default function HomePage() {
                 </div>
               </article>
 
-              <article className="vc2-ecosystem-card vc2-antecipa-card">
-                <div className="vc2-product-brand vc2-antecipa-brand">
+              <article className="vc2-ecosystem-card vc2-antecipar-card">
+                <div className="vc2-product-brand vc2-antecipar-brand">
                   <Image
-                    src="/antecipa-ai-logo.jpeg"
-                    alt="Símbolo oficial da antecipa.ai"
-                    width={200}
-                    height={200}
-                    sizes="76px"
+                    src="/antecipar-ai-logo.png"
+                    alt="Logomarca oficial da Antecipar.ai"
+                    width={766}
+                    height={150}
+                    sizes="(max-width: 700px) 80vw, 430px"
                   />
-                  <strong>antecipa.ai</strong>
                 </div>
                 <div className="vc2-ecosystem-card-copy">
-                  <span>ANTECIPAÇÃO DE RECEBÍVEIS</span>
-                  <h3>Fluxo de caixa no ritmo do negócio.</h3>
+                  <span>INFRAESTRUTURA PARA RECEBÍVEIS</span>
+                  <h3>Recebíveis com inteligência e segurança.</h3>
                   <p>
-                    Liquidez para pequenas e médias empresas por meio da antecipação de recebíveis,
-                    com foco em agilidade e transparência.
+                    Infraestrutura para gestão de garantias, análise preditiva de riscos e
+                    conciliação automática de recebíveis.
                   </p>
                   <div>
-                    <small>Capital de giro</small>
-                    <small>Recebíveis antecipados</small>
+                    <small>Gestão de garantias</small>
+                    <small>Conciliação automática</small>
                   </div>
                 </div>
               </article>

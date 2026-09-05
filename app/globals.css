@@ -1154,24 +1154,17 @@
   object-fit: contain;
 }
 
-.vc2-antecipa-brand {
-  gap: 1.1rem;
-  background: radial-gradient(circle at 20% 20%, #f5487133, transparent 14rem), #fff8fa;
+.vc2-antecipar-brand {
+  background:
+    radial-gradient(circle at 18% 15%, #0ad7bd2b, transparent 15rem),
+    linear-gradient(145deg, #061244, #081a57);
+  border-bottom-color: #13306f;
 }
 
-.vc2-antecipa-brand img {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 1.35rem;
-  object-fit: cover;
-}
-
-.vc2-antecipa-brand strong {
-  color: #ed3f68;
-  font-size: clamp(2.25rem, 4vw, 3.3rem);
-  font-weight: 780;
-  letter-spacing: -0.055em;
-  line-height: 1;
+.vc2-antecipar-brand img {
+  width: min(100%, 28rem);
+  height: auto;
+  object-fit: contain;
 }
 
 .vc2-ecosystem-card-copy {
@@ -1185,8 +1178,8 @@
   letter-spacing: 0.14em;
 }
 
-.vc2-antecipa-card .vc2-ecosystem-card-copy > span {
-  color: #bc294c;
+.vc2-antecipar-card .vc2-ecosystem-card-copy > span {
+  color: #057f72;
 }
 
 .vc2-ecosystem-card-copy h3 {
@@ -1253,18 +1246,8 @@
     padding: 1.5rem;
   }
 
-  .vc2-antecipa-brand {
-    gap: 0.75rem;
-  }
-
-  .vc2-antecipa-brand img {
-    width: 3.7rem;
-    height: 3.7rem;
-    border-radius: 1rem;
-  }
-
-  .vc2-antecipa-brand strong {
-    font-size: clamp(1.9rem, 10vw, 2.7rem);
+  .vc2-antecipar-brand img {
+    width: min(100%, 22rem);
   }
 
   .vc2-ecosystem-card-copy {
