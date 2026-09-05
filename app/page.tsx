@@ -288,15 +288,16 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="vc2-ecosystem-card-copy">
-                  <span>INFRAESTRUTURA PARA RECEBÍVEIS</span>
-                  <h3>Recebíveis com inteligência e segurança.</h3>
+                  <span>INFRAESTRUTURA FINANCEIRA B2B</span>
+                  <h3>Tecnologia para transformar recebíveis em crédito com governança.</h3>
                   <p>
-                    Infraestrutura para gestão de garantias, análise preditiva de riscos e
-                    conciliação automática de recebíveis.
+                    A Antecipar.ai conecta credores e empresas para estruturar operações lastreadas
+                    em recebíveis, reunindo integração às registradoras, análise de risco, gestão de
+                    garantias e conciliação.
                   </p>
                   <div>
-                    <small>Gestão de garantias</small>
-                    <small>Conciliação automática</small>
+                    <small>Operações com recebíveis</small>
+                    <small>Governança ponta a ponta</small>
                   </div>
                 </div>
               </article>
