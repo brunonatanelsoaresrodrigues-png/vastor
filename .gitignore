@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+artifacts/
+.qa/
+tmp/
+Contrato_Desenvolvimento_Parolo_Squad_Solucoes.docx
+parolo-prototipo-completo.html
+logomarca.jpeg
+WhatsApp Image 2026-09-04 at 17.11.56.jpeg
+tools/build_contract.py
